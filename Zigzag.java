@@ -1,5 +1,3 @@
-package BhumilJava;
-
 import java.util.Scanner;
 
 public class Zigzag {

@@ -1,5 +1,3 @@
-package BhumilJava;
-
 import java.util.*;
 
 public class factor {
