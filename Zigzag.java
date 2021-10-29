@@ -24,5 +24,6 @@ public class Zigzag {
             }
         }
         System.out.println(sum);
+        scan.close();
     }
 }

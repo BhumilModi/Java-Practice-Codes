@@ -26,5 +26,6 @@ public class sumofPrimeFactor {
             }
         }
         System.out.print(sum);
+        sc.close();
     }
 }

@@ -31,5 +31,6 @@ public class queueneeded {
             }
         }
         System.out.println(No_of_Bus);
+        sc.close();
     }
 }

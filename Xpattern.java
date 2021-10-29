@@ -14,6 +14,7 @@ public class Xpattern {
                 }
             }
             System.out.println();
+            scan.close();
         }
     }
 }

@@ -6,15 +6,15 @@ public class BallInBox {
 
     {
 
-    if(n==1 || n==2)
+        if (n == 1 || n == 2)
 
-        return 1;
+            return 1;
 
-    else if(n==3)
+        else if (n == 3)
 
-        return 2;
+            return 2;
 
-    return fun(n-3) + fun(n-1);
+        return fun(n - 3) + fun(n - 1);
 
     }
 
@@ -24,5 +24,6 @@ public class BallInBox {
         int n = sc.nextInt();
         int res = fun(n);
         System.out.println(res);
+        sc.close();
     }
 }

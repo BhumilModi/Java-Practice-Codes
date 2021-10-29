@@ -36,6 +36,6 @@ public class majorityElement {
         } else {
             System.out.println(-1);
         }
-
+        sc.close();
     }
 }

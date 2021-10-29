@@ -70,5 +70,6 @@ public class maxCircularSubArray {
             }
             System.out.println(runCircularKadane(a));
         }
+        sc.close();
     }
 }

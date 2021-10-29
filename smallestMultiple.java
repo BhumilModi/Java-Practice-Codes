@@ -68,5 +68,6 @@ public class smallestMultiple {
         }
         int least_multiple_permuted = get_least_permuted_multiple(digit_arr, digits_cnt, d);
         System.out.println(least_multiple_permuted);
+        sc.close();
     }
 }

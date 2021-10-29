@@ -12,7 +12,7 @@ public class bulbtoggle {
         }
         if (n > 1) {
             for (int i = 1; i < n - 1; i++) {
-                for (int j = 0; j < n; j += i-1) {
+                for (int j = 0; j < n; j += i - 1) {
                     if (bulb[j] == 0) {
                         bulb[j] = 1;
                     } else {
@@ -33,5 +33,6 @@ public class bulbtoggle {
             }
         }
         System.out.print(count);
+        sc.close();
     }
 }

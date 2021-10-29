@@ -8,9 +8,7 @@ public class AzadandChocolates {
         while (T > 0) {
             T--;
             int N = sc.nextInt();
-            int used = 100 - N;
-            int temp = used / 7;
-            int temp2 = used / 3;
+            int used = total - N;
 
             if (used > 2) {
                 if (used % 3 == 0 || used % 7 == 0 || used % 3 == 7 || used % 7 == 3) {
@@ -22,5 +20,6 @@ public class AzadandChocolates {
                 System.out.println("0");
             }
         }
+        sc.close();
     }
 }
