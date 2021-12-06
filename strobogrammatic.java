@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class strobogrammatic {
     public static void main(String[] args) {
         String n = "9006";
         System.out.println("Is " + n + " is Strobogrammatic? " + is_Strobogrammatic(n));
