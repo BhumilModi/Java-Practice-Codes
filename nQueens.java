@@ -3,25 +3,20 @@ import java.util.Scanner;
 public class nQueens {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of n");
         int n = sc.nextInt();
         int board[][] = new int[n][n];
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
                 board[i][j] = 0;
         if (solveNQueens(board, 0, n))
-            solution(board, n);
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++)
+                    System.out.print(" " + board[i][j] + " ");
+                System.out.println();
+            }
         else
             System.out.println("No solution exists");
         sc.close();
-    }
-
-    public static void solution(int board[][], int n) {
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++)
-                System.out.print(" " + board[i][j] + " ");
-            System.out.println();
-        }
     }
 
     public static boolean isSafe(int board[][], int row, int column, int n) {
