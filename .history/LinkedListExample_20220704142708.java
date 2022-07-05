@@ -18,7 +18,7 @@ class LinkedListExample{
         }
         System.out.println(ll);
 
-        ArrayList<Integer> arr = new ArrayList<Integer>(); 
+        int[] arr = new int[ll.size()]; 
         arr = ll.toArray();
         System.out.println(arr);
     }
